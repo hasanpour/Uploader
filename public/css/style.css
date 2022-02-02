@@ -18,11 +18,13 @@ h1 {
   margin: 0;
 }
 
+/* Hide default button */
 input[type="file"] {
   display: none;
 }
 
-.custom-btn {
+/* Upload button */
+.button {
   margin: 20px;
   width: 130px;
   padding: 10px 10px;
@@ -34,8 +36,7 @@ input[type="file"] {
   transition: all 0.3s ease;
   color: #fff;
 }
-
-.custom-btn:after {
+.button:after {
   position: absolute;
   content: " ";
   top: 0;
@@ -47,15 +48,17 @@ input[type="file"] {
   -webkit-transform: scale(0.1);
   transform: scale(0.1);
 }
-.custom-btn:hover {
+.button:hover {
   color: #000;
 }
-.custom-btn:hover:after {
+.button:hover:after {
   background: #fff;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+/* * * * * */
 
+/* Upload progress bar */
 .progress {
   background: rgba(255, 255, 255, 0.2);
   justify-content: flex-start;
@@ -68,25 +71,26 @@ input[type="file"] {
   margin-top: 15px;
   display: none;
 }
-
-.progress-value {
+.progress__value {
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: #fff;
   height: 30px;
   width: 0;
 }
+/* * * * * */
 
-#textbox {
+/* Upload result */
+.textbox {
   background-color: #f1f0f0;
   border-radius: 10px;
   padding: 0 8rem;
   margin-top: 1rem;
   display: none;
 }
-
-#message {
+.textbox__message {
   color: #222222;
   font-size: 1.4rem;
   margin: 1rem 0;
 }
+/* * * * * */

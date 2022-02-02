@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploader</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/upload.js"></script>
+</head>
+
+<body>
+    <h1>アップローダー</h1>
+
+    <label for="upload-button" class="button js-button">
+        Upload
+    </label>
+    <input type="file" id="upload-button" multiple onchange="upload(event)" />
+
+    <div class="progress js-progress">
+        <div class="progress__value js-progress__value"></div>
+    </div>
+
+    <div class="textbox js-textbox">
+        <p class="textbox__message js-textbox__message"></p>
+    </div>
+</body>
+
+</html>

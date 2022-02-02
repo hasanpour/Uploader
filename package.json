@@ -1,0 +1,29 @@
+{
+  "name": "uploader",
+  "version": "1.0.0",
+  "description": "Simple uploader",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanpour/uploader.git"
+  },
+  "keywords": [
+    "Uploader",
+    "JavaScript",
+    "NodeJS"
+  ],
+  "author": "Armin Hasanpour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hasanpour/uploader/issues"
+  },
+  "homepage": "https://github.com/hasanpour/uploader#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "formidable": "^2.0.1"
+  }
+}
